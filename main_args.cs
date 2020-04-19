@@ -27,7 +27,7 @@ namespace _1904tar3
             if (args.Length != 3)
             {
                 Console.WriteLine("must enter 3 parameters i.e. 3 + 5");
-                return;
+                return; // finished the program immediately
             }
 
             int x = Convert.ToInt32(args[0]);
